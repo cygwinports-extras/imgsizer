@@ -1,0 +1,11 @@
+DESCRIPTION="Generates HTML IMG WIDTH/HEIGHT parameters"
+HOMEPAGE="http://www.catb.org/~esr/${PN}/"
+SRC_URI="http://www.catb.org/~esr/${PN}/${P}.tar.gz"
+
+src_compile() { :; }
+
+src_install() {
+	cd ${S}
+	dobin imgsizer
+	doman imgsizer.1
+}

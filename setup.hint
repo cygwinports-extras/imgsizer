@@ -1,0 +1,6 @@
+category: Graphics Web
+requires: file jpeg python
+sdesc: "Creates HTML IMG tag WIDTH/HEIGHT parameters"
+ldesc: "This is a nifty little HTML authoring tool that will generate 
+correct Netscape-style WIDTH and HEIGHT parameters for each of your IMG 
+tags. This will enable the text parts of your page to load much faster."
